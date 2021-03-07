@@ -22,7 +22,7 @@ function Contador() {
     };
     return (
         <div>
-            Contador: {contador}
+            <h3>Contador: {contador}</h3>
             <br />
             <button onClick={adicionaContador}>Adcionar</button>
             {' '}
